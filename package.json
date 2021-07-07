@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "got": "^11.8.2",
+    "node-fetch": "^2.6.1",
+    "puppeteer": "^9.1.1",
+    "twit": "^2.2.11",
+    "twitter": "^1.7.1"
+  },
+  "name": "sparkles-marketing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
