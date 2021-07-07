@@ -70,8 +70,8 @@ async function downloadLink(url, p, filename) {
         if (err) throw err;
       });
       const p = path.join(__dirname, foldername);
-      //   downloadLink(new URL(video), p, 'trailer.mp4');
-      //   downloadLink(new URL(videoThumb), p, 'thumb.jpg');
+      downloadLink(new URL(video), p, 'trailer.mp4');
+      downloadLink(new URL(videoThumb), p, 'thumb.jpg');
       videos[v].video = video;
       videos[v].slug = foldername;
       videos[v].thumb = videoThumb;

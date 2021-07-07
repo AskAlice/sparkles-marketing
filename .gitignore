@@ -1,2 +1,9 @@
 node_modules/
 config.js
+*data.json
+*trailer.mp4
+*trailer-tweet.mp4
+*thumb.jpg
+trace.json
+data.json
+*data.json
